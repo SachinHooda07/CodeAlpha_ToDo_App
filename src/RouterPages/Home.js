@@ -1,7 +1,7 @@
 function Home() {
   return (
     <>
-      <h1>Welcome to ToDo App Home Page.</h1>
+      <h2>Welcome to <u>ToDo App</u> Home Page.</h2>
     </>
   );
 }
