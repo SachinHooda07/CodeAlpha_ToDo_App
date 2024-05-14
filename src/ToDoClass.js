@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes, Link, NavLink } from "react-router-dom";
 import "./RouterPages/Router.css";
 import Home from "./RouterPages/Home";
-import UserList from "./RouterPages/UserList";
+import AddUserDetails from "./RouterPages/AddUserDetails";
 import NavBarLinks from "./RouterPages/NavBarLinks";
-import ApiRouting from "./RouterPages/ApiRouting";
+import ToDo_List from "./RouterPages/ToDo_List";
 import EditUserList from "./RouterPages/EditUserList";
 
 
@@ -15,10 +15,10 @@ function ToDoClass() {
         <NavBarLinks />
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="/getapi" element={<ApiRouting />}>
+          <Route exact path="/getapi" element={<ToDo_List />}>
             <Route exact path="edit/:id" element={<EditUserList/>}/>
           </Route>
-          <Route exact path="/userlist" element={<UserList />} />
+          <Route exact path="/userlist" element={<AddUserDetails />} />
         </Routes>
       </BrowserRouter>
     </>

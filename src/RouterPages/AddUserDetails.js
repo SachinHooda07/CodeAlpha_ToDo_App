@@ -80,5 +80,3 @@ function UserList() {
   );
 }
 export default UserList;
-
-// React JS useParams Hook helps to access the parameters of the current route to manage the dynamic routes in the URL. The react-router-dom package has useParams hooks that let you access and use the parameters of the current route as required.
