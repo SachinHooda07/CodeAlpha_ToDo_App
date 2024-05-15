@@ -1,10 +1,10 @@
 import { BrowserRouter, Route, Routes, Link, NavLink } from "react-router-dom";
-import "./RouterPages/Router.css";
-import Home from "./RouterPages/Home";
-import AddUserDetails from "./RouterPages/AddUserDetails";
-import NavBarLinks from "./RouterPages/NavBarLinks";
-import ToDo_List from "./RouterPages/ToDo_List";
-import EditUserList from "./RouterPages/EditUserList";
+import "./ToDoPages/Router.css";
+import Home from "./ToDoPages/Home";
+import AddUserDetails from "./ToDoPages/AddUserDetails";
+import NavBarLinks from "./ToDoPages/NavBarLinks";
+import ToDo_List from "./ToDoPages/ToDo_List";
+import EditUserList from "./ToDoPages/EditUserList";
 
 
 function ToDoClass() {

@@ -2,15 +2,15 @@
   "UsersDetail": [
     {
       "id": "1",
-      "name": "Rahul",
-      "email": "rahul@gmail.com",
-      "phone": "987156278263"
+      "name": "Sachin",
+      "email": "sachin@gmail.com",
+      "phone": "09817219618"
     },
     {
       "id": "2",
-      "name": "Sachin",
-      "email": "sachin@gmail.com",
-      "phone": "7868686786766"
+      "name": "Sahil",
+      "email": "sahil@gmail.com",
+      "phone": "677686678"
     }
   ]
 }
