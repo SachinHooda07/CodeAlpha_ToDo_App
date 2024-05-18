@@ -53,7 +53,6 @@
   margin: 2px;
   padding: 2px;
 }
-
 .main {
   display: flex;
 }
@@ -82,7 +81,6 @@
   display:inline-block;
 }
 .userListInput1 input {
-  
   font-size: 90%;
   width: 200px;
   height: 25px;
@@ -92,7 +90,6 @@
   margin-bottom: 5px;
   margin-left: 50px;
 }
-
 #userListBtn1{
   cursor: pointer;
   font-size: medium;
